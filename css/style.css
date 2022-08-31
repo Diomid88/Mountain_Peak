@@ -45,7 +45,7 @@ img {
 	vertical-align: top;
 }
 html {
-	font-size: 24px; /* по умолчанию */
+	font-size: 18px; /* по умолчанию */
 }
 body {
 	font-family: 'YaHei', sans-serif;
@@ -94,7 +94,7 @@ body {
 .menu__item{
 	margin-left: 50px;
 	font-family: 'YaHei', sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 }
 .menu__item a{
 	color: #777777;
@@ -110,7 +110,18 @@ body {
 	position: absolute;
 	margin-left: 10px;
 	vertical-align: top;
-	margin: 10px;
+	margin: 6px;
+	width: 28px;
+	height: 27px;
+	background: url(../img/down.png) no-repeat;
+}
+.lang::after{
+	content: "";
+	display: inline-block;
+	position: absolute;
+	margin-left: 10px;
+	vertical-align: top;
+	margin: 6px;
 	width: 28px;
 	height: 27px;
 	background: url(../img/down.png) no-repeat;
@@ -129,7 +140,7 @@ body {
   }
   .btn__text{
 	font-family: 'YaHei', sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 	color: #FFFFFF;
   }
 
