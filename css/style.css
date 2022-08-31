@@ -220,3 +220,8 @@ body {
 	display: flex;
 	margin: 30px auto;
 }
+.our_services__subtitle{
+	font-size: 18px;
+	color: #000;
+
+}
