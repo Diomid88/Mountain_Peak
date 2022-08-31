@@ -195,14 +195,20 @@ body {
 	cursor: pointer;
 	padding: 14px 54px;
 	border-radius: 50px;
-	margin-left: 45px;
+	
 }
 .box__btn-text{
 	font-size: 18px;
 	color: #FFFFFF;
 	text-transform: uppercase;
 }
+.wrapper_services{
+	background-color: #f5f5f5;
+}
 .our_services{
+	max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
 	
 	
 }
@@ -210,7 +216,7 @@ body {
 	font-size: 33px;
 	color: #000;
 	margin-bottom: 25px;
-	margin-top: 30px;
+	padding-top: 30px;
 }
 .our_services__title::after{
 	content: "";
@@ -223,5 +229,110 @@ body {
 .our_services__subtitle{
 	font-size: 18px;
 	color: #000;
-
+	margin-bottom: 50px;
+}
+.items{
+	display: flex;
+	
+}
+.item{
+	max-width: 350px;
+	background-color: #fff;
+}
+.item__img{
+	margin-top: 43px;
+	margin-bottom: 22px;
+}
+.item__title{
+	font-family: 'SOURCEHANSANSCN-EXTRALIGHT', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	line-height: 1.3;
+	padding: 0 20px;
+}
+.item__title::after{
+	content: "";
+	width: 239px;
+	height: 1px;
+	background-color: #9fa0a0;
+	display: block;
+	margin: 30px auto;
+}
+.active::after{
+	content: "";
+	width: 239px;
+	height: 1px;
+	background-color: #70acfe;
+	display: block;
+	margin: 30px auto;
+}
+.color_white{
+	color: #fff;
+}
+.item__text{
+	font-family: 'SOURCEHANSANSCN-EXTRALIGHT', sans-serif;
+	font-size: 14px;
+	line-height: 2.4;
+	padding: 0 45px 50px 45px;
+	text-align: left;
+	text-align: justify;
+}
+.gradient{
+	background: linear-gradient(0deg, rgb(98, 67, 235), rgb(15, 148, 234) 58%, rgb(76, 223, 109));
+}
+.point{
+	margin: 40px 0 0 0;
+	padding-bottom: 65px;
+}
+.point__active{
+	content: "";
+	width: 13px;
+	height: 13px;
+	background-color: #0f94ea;
+	display: inline-block;
+	
+	border-radius: 50%;
+}
+.point__disable{
+	content: "";
+	width: 10px;
+	height: 10px;
+	background-color: #aaaaaa;
+	display: inline-block;
+	margin-bottom: 1px;
+	border-radius: 50%;
+}
+.mountain__point{
+	padding-top: 100px;
+}
+.white{
+	background-color: #fff;
+}
+.step{
+	height: 320px;
+	background: url(../img/bg_step.png) 50% / cover no-repeat;
+	text-align: center;
+}
+.step__title{
+	padding-top: 100px;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.step__text{
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 45px;
+}
+.step__btn{
+	background: linear-gradient(0deg, rgb(176, 225, 250), rgb(251, 240, 234));
+	cursor: pointer;
+	padding: 14px 25px;
+	border-radius: 26px 0px;
+}
+.step__btntext{
+	font-size: 16px;
+	color: #6243eb;
+	text-transform: uppercase;
 }
