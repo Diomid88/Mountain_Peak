@@ -1,20 +1,20 @@
 @font-face {
 	font-family: "SOURCEHANSANSCN-LIGHT";
-	src: url("/fonts/SOURCEHANSANSCN-LIGHT.woff2") format("woff2"), url("/fonts/SOURCEHANSANSCN-LIGHT.woff") format("woff");
+	src: url("../fonts/SOURCEHANSANSCN-LIGHT.woff2") format("woff2"), url("../fonts/SOURCEHANSANSCN-LIGHT.woff") format("woff");
 	font-weight: 300;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "SOURCEHANSANSCN-REGULAR";
-	src: url("/fonts/SOURCEHANSANSCN-REGULAR.woff2") format("woff2"), url("/fonts/SOURCEHANSANSCN-REGULAR.woff") format("woff");
+	src: url("../fonts/SOURCEHANSANSCN-REGULAR.woff2") format("woff2"), url("../fonts/SOURCEHANSANSCN-REGULAR.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "SOURCEHANSANSCN-EXTRALIGHT";
-	src: url("/fonts/SOURCEHANSANSCN-EXTRALIGHT.woff2") format("woff2"), url("/fonts/SOURCEHANSANSCN-EXTRALIGHT.woff") format("woff");
+	src: url("../fonts/SOURCEHANSANSCN-EXTRALIGHT.woff2") format("woff2"), url("../fonts/SOURCEHANSANSCN-EXTRALIGHT.woff") format("woff");
 	font-weight: 200;
 	font-style: normal;
 	font-display: swap;
