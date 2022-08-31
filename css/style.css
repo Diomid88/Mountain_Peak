@@ -1,18 +1,25 @@
 @font-face {
-	font-family: "YaHei";
-	src: url("../fonts/Microsoft-YaHei.woff2") format("woff2"), url("../fonts/Microsoft-YaHei.woff") format("woff");
-	font-weight: normal;
+	font-family: "SOURCEHANSANSCN-LIGHT";
+	src: url("/fonts/SOURCEHANSANSCN-LIGHT.woff2") format("woff2"), url("/fonts/SOURCEHANSANSCN-LIGHT.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "SOURCEHANSANSCN-REGULAR";
+	src: url("/fonts/SOURCEHANSANSCN-REGULAR.woff2") format("woff2"), url("/fonts/SOURCEHANSANSCN-REGULAR.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "SOURCEHANSANSCN-EXTRALIGHT";
+	src: url("/fonts/SOURCEHANSANSCN-EXTRALIGHT.woff2") format("woff2"), url("/fonts/SOURCEHANSANSCN-EXTRALIGHT.woff") format("woff");
+	font-weight: 200;
 	font-style: normal;
 	font-display: swap;
 }
 
-@font-face {
-	font-family: "Gilroy";
-	src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
-	font-weight: bold;
-	font-style: normal;
-	font-display: swap;
-}
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
 *,
 *::before,
@@ -48,7 +55,7 @@ html {
 	font-size: 18px; /* по умолчанию */
 }
 body {
-	font-family: 'YaHei', sans-serif;
+	font-family: 'SOURCEHANSANSCN-LIGHT', sans-serif;
 	line-height: 1;
 	height: 100%;
 	background: #ffffff;
@@ -64,6 +71,7 @@ body {
 }
 .header{
 	display: flex;
+	margin-bottom: 18px;
 }
 .logo__img{
     width: 145px;
@@ -85,19 +93,17 @@ body {
 	
 }
 .menu ul{
-	
 	display: flex;
 	list-style: none;
 	align-items: center;
-
 }
 .menu__item{
 	margin-left: 50px;
-	font-family: 'YaHei', sans-serif;
+	font-family: 'SOURCEHANSANSCN-LIGHT', sans-serif;
 	font-size: 18px;
 }
 .menu__item a{
-	color: #777777;
+	color: #333333;
 }
 .img_a{
 	vertical-align: middle;
@@ -108,7 +114,7 @@ body {
 	content: "";
 	display: inline-block;
 	position: absolute;
-	margin-left: 10px;
+	
 	vertical-align: top;
 	margin: 6px;
 	width: 28px;
@@ -131,15 +137,14 @@ body {
 }
 
 .btn{
-	background: url("../img/icon_btn.png") 95% 50% no-repeat, linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,51,255,1) 0%, rgba(15,148,234,1) 58%, rgba(76,223,109,1) 100%) ;
-
+	background: url("../img/icon_btn.png") 95% 50% no-repeat, linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,51,255,1) 0%, rgba(15,148,234,1) 58%, rgba(76,223,109,1) 100%);
 	cursor: pointer;
 	padding: 10px 60px 10px 20px;
 	border-radius: 50px;
 	margin-left: 45px;
   }
   .btn__text{
-	font-family: 'YaHei', sans-serif;
+	font-family: 'SOURCEHANSANSCN-LIGHT', sans-serif;
 	font-size: 18px;
 	color: #FFFFFF;
   }
@@ -147,4 +152,52 @@ body {
 .lang{
 	margin-left: 20px;
 	color: #999999;
+}
+.mountain{
+	background: url(../img/back1.png) 50% / cover no-repeat, linear-gradient(rgba(39, 2, 150, 0.46), rgba(39, 2, 150, 0.46)), url(../img/back.png) 50% / cover no-repeat;
+	height: 650px;
+}
+.mountain__back{
+	height: 650px;
+}
+.box{
+	max-width: 1400px;
+    margin: 0 auto;
+	text-align: center;
+	padding-top: 150px;
+}
+.box__title{
+	font-family: 'SOURCEHANSANSCN-REGULAR', sans-serif;
+	font-size: 60px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+.box__subtitle{
+	font-family: 'SOURCEHANSANSCN-EXTRALIGHT', sans-serif;
+	font-weight: 200;
+	font-size: 46px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 38px;
+}
+.box__text{
+	font-size: 18px;
+	font-weight: normal;
+	color: #FFFFFF;
+	line-height: 1.5;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.box__btn{
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,51,255,1) 0%, rgba(15,148,234,1) 58%, rgba(76,223,109,1) 100%);
+	cursor: pointer;
+	padding: 14px 54px;
+	border-radius: 50px;
+	margin-left: 45px;
+}
+.box__btn-text{
+	font-size: 18px;
+	color: #FFFFFF;
+	text-transform: uppercase;
 }
