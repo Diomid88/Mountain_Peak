@@ -1,0 +1,139 @@
+@font-face {
+	font-family: "YaHei";
+	src: url("../fonts/Microsoft-YaHei.woff2") format("woff2"), url("../fonts/Microsoft-YaHei.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 24px; /* по умолчанию */
+}
+body {
+	font-family: 'YaHei', sans-serif;
+	line-height: 1;
+	height: 100%;
+	background: #ffffff;
+}
+.section {
+	min-height: 100%;
+	overflow: hidden;
+}
+.wrapper {
+	max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+.header{
+	display: flex;
+}
+.logo__img{
+    width: 145px;
+    height: 67px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col{
+    margin: 0 15px;
+    box-sizing: border-box;
+}
+.header__menu{
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	
+}
+.menu ul{
+	
+	display: flex;
+	list-style: none;
+	align-items: center;
+
+}
+.menu__item{
+	margin-left: 50px;
+	font-family: 'YaHei', sans-serif;
+	font-size: 24px;
+}
+.menu__item a{
+	color: #777777;
+}
+.img_a{
+	vertical-align: middle;
+	align-items: middle;
+	width: 15px;
+}
+.menu__item::after{
+	content: "";
+	display: inline-block;
+	position: absolute;
+	margin-left: 10px;
+	vertical-align: top;
+	margin: 10px;
+	width: 28px;
+	height: 27px;
+	background: url(../img/down.png) no-repeat;
+}
+.logo{
+    display: flex;
+}
+
+.btn{
+	background: url("../img/icon_btn.png") 95% 50% no-repeat, linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,51,255,1) 0%, rgba(15,148,234,1) 58%, rgba(76,223,109,1) 100%) ;
+
+	cursor: pointer;
+	padding: 10px 60px 10px 20px;
+	border-radius: 50px;
+	margin-left: 45px;
+  }
+  .btn__text{
+	font-family: 'YaHei', sans-serif;
+	font-size: 24px;
+	color: #FFFFFF;
+  }
+
+.lang{
+	margin-left: 20px;
+	color: #999999;
+}
